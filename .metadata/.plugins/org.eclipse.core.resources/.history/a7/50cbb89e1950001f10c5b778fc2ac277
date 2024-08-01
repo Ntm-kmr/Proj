@@ -1,0 +1,19 @@
+package com.narottam.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import com.narottam.utilities.BrowserFactory;
+
+public class Freecrm {
+	WebDriver driver;
+	
+	@Test
+	public void loginapp()
+	{
+		driver=BrowserFactory.startApplication(driver, "chrome", "https://www.freecrm.com");
+		String s=driver.getTitle();
+		System.out.println(s);
+	}
+
+}

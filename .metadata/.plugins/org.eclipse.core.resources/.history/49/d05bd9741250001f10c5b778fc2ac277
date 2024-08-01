@@ -1,0 +1,13 @@
+package com.narottam.testcases;
+
+import org.testng.annotations.Test;
+
+public class Freecrm {
+	
+	@Test
+	public void loginapp()
+	{
+		
+	}
+
+}
